@@ -1,0 +1,47 @@
+/* HEADER */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  height: 65px;
+}
+
+.header{
+  display: inline-block;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.container div{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.container span{
+  color: MediumAquamarine;
+  margin: 0 10px;
+}
+
+nav ul{
+  flex-wrap: wrap;
+  margin: auto 40px;
+  min-width: 180px;
+}
+
+nav li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a{
+  text-decoration: underline;
+}
+
+#logopic{
+  flex-shrink: 0;
+}
