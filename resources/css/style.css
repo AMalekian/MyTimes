@@ -50,26 +50,26 @@ nav a{
 .container{
   border: 1px solid black;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .column{
-  border: 2px solid black;
   display: flex;
   flex-direction: column;
   margin-right: 25px;
+  flex-grow: 0;
 }
 
 .column.large {
-  min-width: 630px;
+  flex: 630px 0 0;
 }
 
 .column.medium {
-  min-width: 300px;
+  flex: 300px 0 0;
 }
 
 .column.small {
-  min-width: 240px;
+  flex: 240px 0 0;
 }
 
 .squares{
@@ -86,9 +86,9 @@ nav a{
 }
 
 .icon{
-  border: 1px solid red;
   display: flex;
   background-size: cover;
+  background-repeat: no-repeat;
   justify-content: center;
   align-items: flex-start;
   height: 300px;
@@ -109,7 +109,6 @@ nav a{
 }
 
 .content{
-  border: 3px solid black;
 }
 
 .content h1{
@@ -136,4 +135,33 @@ nav a{
 
 #cats{
   background-image: url(../images/cats.jpg);
+}
+
+/* NEWS BITES */
+
+.bites h2{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bites ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bites li{
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 10px 15px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.bites span{
+border-top: 1px
+border-bottom: 1px;
 }
