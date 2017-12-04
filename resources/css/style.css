@@ -58,13 +58,10 @@ nav a{
   display: flex;
   flex-direction: column;
   margin-right: 25px;
-  height: 1200px;
 }
 
 .column.large {
   min-width: 630px;
-  justify-content: flex-start;
-  flex-wrap: wrap;
 }
 
 .column.medium {
@@ -75,6 +72,14 @@ nav a{
   min-width: 240px;
 }
 
+.squares{
+  display: flex;
+  height: 600px;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-content: space-between;
+}
+
 .square {
   display: inline-block;
   width: 300px;
@@ -83,7 +88,7 @@ nav a{
 .icon{
   border: 1px solid red;
   display: flex;
-  background-size: contain;
+  background-size: cover;
   justify-content: center;
   align-items: flex-start;
   height: 300px;
