@@ -57,24 +57,78 @@ nav a{
   border: 2px solid black;
   display: flex;
   flex-direction: column;
+  margin-right: 25px;
+  height: 1200px;
 }
 
-.content{
-  border: 5px solid black;
+.column.large {
+  min-width: 630px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.column.medium {
+  min-width: 300px;
+}
+
+.column.small {
+  min-width: 240px;
+}
+
+.square {
+  display: inline-block;
+  width: 300px;
 }
 
 .icon{
   border: 1px solid red;
+  display: flex;
+  background-size: contain;
+  justify-content: center;
+  align-items: flex-start;
+  height: 300px;
 }
 
-.column.large {
-  width: 630px;
+.icon h3{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin: 0 0;
 }
 
-.column.medium {
-  width: 300px;
+#main h3{
+  font-size: 40px;
+  text-align: left;
 }
 
-.column.small {
-  width: 240px;
+.content{
+  border: 3px solid black;
+}
+
+.content h1{
+  font-size: 23px;
+}
+
+.content p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#main{
+  background-image: url(../images/main.jpg);
+}
+
+#earth{
+  background-image: url(../images/earth.jpg);
+}
+
+#cameras{
+  background-image: url(../images/camera.jpg);
+}
+
+#cats{
+  background-image: url(../images/cats.jpg);
 }
