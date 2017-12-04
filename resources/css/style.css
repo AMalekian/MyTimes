@@ -165,3 +165,34 @@ nav a{
 border-top: 1px
 border-bottom: 1px;
 }
+
+/* FOOTER */
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer span{
+  display: inline-block;
+  padding: 0 10px;
+  text-decoration: underline;
+}
+
+#flogo{
+ font-family: Georgia;
+ font-size: 16px;
+ font-weight: bold;
+ color: white;
+ text-decoration: none;
+ border-right: 1px solid white;
+ padding-right: 25px;
+ margin-right: 35px;
+}
