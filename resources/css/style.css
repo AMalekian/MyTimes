@@ -1,6 +1,6 @@
 /* HEADER */
 
-.container {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,21 +8,13 @@
   height: 65px;
 }
 
-.header{
-  display: inline-block;
-  align-items: center;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.container div{
+header div{
    display: flex;
    justify-content: flex-start;
    align-items: center;
 }
 
-.container span{
+header span{
   color: MediumAquamarine;
   margin: 0 10px;
 }
@@ -42,6 +34,14 @@ nav a{
   text-decoration: underline;
 }
 
+.header_item{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 #logopic{
   flex-shrink: 0;
 }
+
+/* CONTENT */
