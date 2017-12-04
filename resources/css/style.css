@@ -12,6 +12,7 @@ header div{
    display: flex;
    justify-content: flex-start;
    align-items: center;
+   padding: 0 300px 0 10px;
 }
 
 header span{
@@ -45,3 +46,35 @@ nav a{
 }
 
 /* CONTENT */
+
+.container{
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column{
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.content{
+  border: 5px solid black;
+}
+
+.icon{
+  border: 1px solid red;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
